@@ -1,7 +1,4 @@
-#Write a package
-#Upload it to package server
-#Download it to use it
-#Grand chain of dependencies
+
 
 from sklearn import tree
 
@@ -15,8 +12,9 @@ Y = ['male', 'male', 'female', 'female', 'male', 'male', 'female', 'female',
      'female', 'male', 'male']
 
 
-
+#Initializing Decision Tree
 clf = tree.DecisionTreeClassifier()
+#Training the decision Tree
 clf = clf.fit(X,Y)
 
 prediction = clf.predict([[100,70,43]])
