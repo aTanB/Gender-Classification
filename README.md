@@ -3,5 +3,5 @@ This is the code for the gender classification challenge for 'Learn Python for D
 
 
 1.) Decision Tree
-2.) KNN
+2.) KNeighborsClassifier
 
