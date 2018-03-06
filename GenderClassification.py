@@ -1,6 +1,6 @@
 
 
-from sklearn import tree
+from sklearn import tree, neighbors
 
 
 #Dataset
@@ -20,3 +20,18 @@ clf = clf.fit(X,Y)
 prediction = clf.predict([[100,70,43]])
 
 print(prediction)
+
+
+##################################################################################
+#KNeighborsClassifier
+
+
+h = 0.02 #Step size
+
+clf = neighbors.KNeighborsClassifier(n_neighbors)
+clf.fit(X,Y)
+
+Z = clf.predict([[100,70,43]])
+print(Z)
+
+
